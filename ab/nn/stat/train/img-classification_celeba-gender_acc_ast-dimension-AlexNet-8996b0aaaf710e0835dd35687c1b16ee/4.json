@@ -1,0 +1,61 @@
+[
+    {
+        "accuracy": 0.7493237150586114,
+        "batch": 8,
+        "best_accuracy": 0.7493237150586114,
+        "best_epoch": 4,
+        "cpu_count": 32,
+        "cpu_type": "x86_64",
+        "cpu_usage_percent": 4.7,
+        "dropout": 0.13474412502661182,
+        "duration": 1718819718953,
+        "epoch_max": 5,
+        "gpu_memory_kb": 703009.5,
+        "gpu_memory_usage_percent": 2.81,
+        "gpu_total_memory_kb": 24734080.0,
+        "gpu_type": "NVIDIA GeForce RTX 3090",
+        "gradient_norm": 2.999999769336718,
+        "lr": 0.00011786951351100174,
+        "momentum": 0.18531360075458858,
+        "occupied_gpu_memory_kb": 695260.5,
+        "occupied_ram_kb": 11253164.0,
+        "ram_usage_percent": 14.4,
+        "samples_per_second": 299.81348244961555,
+        "test_loss": 0.520264114993505,
+        "total_ram_kb": 131724388.0,
+        "train_accuracy": 0.7504146955827241,
+        "train_loss": 0.526860130576119,
+        "transform": "bf-v1-Pad_CenterCrop_RandomPosterize",
+        "uid": "df969a34c1098d2b9c03b7e5446c8afc"
+    },
+    {
+        "accuracy": 0.613515679791604,
+        "batch": 1024,
+        "dropout": 0.47019045030001455,
+        "duration": 1675651748187,
+        "lr": 0.0002542955350503633,
+        "momentum": 0.527411536707826,
+        "transform": "echo_256_flip",
+        "uid": "cd8927aeaa12f849ca34e4590bfed01d"
+    },
+    {
+        "accuracy": 0.613515679791604,
+        "batch": 256,
+        "dropout": 0.18420250999581994,
+        "duration": 729506190454,
+        "lr": 0.00013007086521499978,
+        "momentum": 0.6341073113222981,
+        "transform": "norm_64_flip",
+        "uid": "a26689a5e3f6851193ea4580894495aa"
+    },
+    {
+        "accuracy": 0.613515679791604,
+        "batch": 64,
+        "dropout": 0.026993645128296273,
+        "duration": 716376857605,
+        "lr": 0.0008024741909168327,
+        "momentum": 0.5526288939386319,
+        "transform": "echo_flip",
+        "uid": "68bee948b423c96dedb36fad17e83256"
+    }
+]

@@ -1,0 +1,71 @@
+[
+    {
+        "accuracy": 0.8685,
+        "batch": 16,
+        "dropout": 0.27645099223810476,
+        "duration": 1500912078311,
+        "lr": 0.03718553290566558,
+        "momentum": 0.7235801483350887,
+        "transform": "echo_256",
+        "uid": "ca1d7ce2051203192dc4a66b0b6e2e69"
+    },
+    {
+        "accuracy": 0.8644,
+        "batch": 16,
+        "best_accuracy": 0.8644,
+        "best_epoch": 16,
+        "cpu_count": 24,
+        "cpu_type": "x86_64",
+        "cpu_usage_percent": 3.8,
+        "dropout": 0.27645099223810476,
+        "duration": 3077828803062,
+        "epoch_max": 50,
+        "gpu_memory_kb": 2821817.5,
+        "gpu_memory_usage_percent": 1.13,
+        "gpu_total_memory_kb": 24696896.0,
+        "gpu_type": "NVIDIA GeForce RTX 4090",
+        "gradient_norm": 0.09668494202027347,
+        "lr": 0.03718553290566558,
+        "momentum": 0.7235801483350887,
+        "occupied_gpu_memory_kb": 280303.0,
+        "occupied_ram_kb": 15039044.0,
+        "ram_usage_percent": 46.1,
+        "samples_per_second": 260.0606516963745,
+        "test_loss": 0.6266436621626955,
+        "total_ram_kb": 32620620.0,
+        "train_accuracy": 0.99246,
+        "train_loss": 0.022639581000484212,
+        "transform": "echo_256",
+        "uid": "8a26f6e750f9360b70cd1fc00b7cb7e1"
+    },
+    {
+        "accuracy": 0.8294,
+        "batch": 16,
+        "dropout": 0.3683697378931923,
+        "duration": 4556120742983,
+        "lr": 0.02293167167210703,
+        "momentum": 0.4519510123947811,
+        "transform": "norm_512",
+        "uid": "895dc28535284cfe0be3168ac4d368fd"
+    },
+    {
+        "accuracy": 0.3671,
+        "batch": 16,
+        "dropout": 0.11613059543011328,
+        "duration": 1225722398786,
+        "lr": 0.0017470126842890619,
+        "momentum": 0.7843021789090502,
+        "transform": "norm_256",
+        "uid": "91ff08b70aa8dc9edad0f0bdee17998d"
+    },
+    {
+        "accuracy": 0.1209,
+        "batch": 32,
+        "dropout": 0.3302563252637435,
+        "duration": 4555415450486,
+        "lr": 1.3803432918454393e-05,
+        "momentum": 0.25480160027691423,
+        "transform": "norm_512",
+        "uid": "5ba334dc35532bf5f419829e80d13622"
+    }
+]

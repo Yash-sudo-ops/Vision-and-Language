@@ -1,0 +1,51 @@
+[
+    {
+        "accuracy": 0.9704939384831179,
+        "batch": 256,
+        "dropout": 0.2596666430947818,
+        "duration": 540104759751,
+        "lr": 0.005085657321933746,
+        "momentum": 0.9884563097216564,
+        "transform": "norm",
+        "uid": "10b73a2b4796b3f670b8cccdcd222a7e"
+    },
+    {
+        "accuracy": 0.9652339444945396,
+        "batch": 64,
+        "best_accuracy": 0.9652339444945396,
+        "best_epoch": 5,
+        "cpu_count": 32,
+        "cpu_type": "x86_64",
+        "cpu_usage_percent": 10.0,
+        "dropout": 0.19630115307831536,
+        "duration": 1914166700652,
+        "epoch_max": 5,
+        "gpu_memory_kb": 750022.5,
+        "gpu_memory_usage_percent": 2.81,
+        "gpu_total_memory_kb": 24734080.0,
+        "gpu_type": "NVIDIA GeForce RTX 3090",
+        "gradient_norm": 2.999999490343482,
+        "lr": 0.021483731217269476,
+        "momentum": 0.0862815522927235,
+        "occupied_gpu_memory_kb": 695011.0,
+        "occupied_ram_kb": 11360524.0,
+        "ram_usage_percent": 13.8,
+        "samples_per_second": 418.48913717359613,
+        "test_loss": 0.09088226057027872,
+        "total_ram_kb": 131724388.0,
+        "train_accuracy": 0.9806475394728759,
+        "train_loss": 0.05602121960193083,
+        "transform": "norm_64",
+        "uid": "f4c6982ee8e15a443c81c5191ed33461"
+    },
+    {
+        "accuracy": 0.8373910429816651,
+        "batch": 128,
+        "dropout": 0.4250304472204273,
+        "duration": 628597940528,
+        "lr": 0.000680689752859594,
+        "momentum": 0.8487608708691993,
+        "transform": "bf-v1-RandomHorizontalFlip_RandomEqualize_RandomPosterize",
+        "uid": "5834ed4777c96703ba93e1ce6005586e"
+    }
+]
